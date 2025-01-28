@@ -5,7 +5,7 @@
   text-decoration: none;
   border: none;
   list-style: none;
-  outline: 1px solid red
+  /* outline: 1px solid red; */
 }
 
 html {
@@ -23,5 +23,4 @@ body {
 
 a {
  font-family: var(--fonte-secundaria);
- color: var(--font-color);
 }

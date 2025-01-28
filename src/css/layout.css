@@ -1,0 +1,38 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.2rem;
+  width: 30rem;
+}
+.sidebar__nav {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 1.6rem 0 0 1.6rem;
+}
+
+.library-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.2rem;
+  width: 30rem;
+  margin: 20rem 0;
+  
+}
+
+.header-lib {
+  display: flex;
+  background-color: #121212;
+  border-radius: 8px;
+  align-items: center;
+  padding: 1.6rem 0 1rem 4rem;
+}
+
+.library-container .library-content {
+  display: flex;
+  background-color: #121212;
+  border-radius: 8px;
+  margin-top: 2rem;
+  padding: 1.6rem 0 2rem 2rem;
+}

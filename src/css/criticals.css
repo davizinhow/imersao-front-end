@@ -1,0 +1,42 @@
+.sidebar__nav .logo {
+  display: flex;
+  border-radius: 0.8rem;
+  padding: 1.6rem 0 0 1.6rem;
+  background: #121212;
+}
+
+.sidebar__nav .logo img {
+  width: 8rem;
+}
+
+.sidebar nav ul {
+  margin-top: 2rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.sidebar nav ul li {
+  padding: 1rem 0;
+}
+
+.sidebar nav ul li a {
+  color: #b3b3b3b3;
+  font-weight: 600;
+  font-size: var(--fonte-pequena);
+}
+
+.library-container .header-lib .span-text {
+  font-size: var(--fonte-pequena);
+  font-weight: 600;
+  padding: 0 0 0 2rem;
+}
+
+.book-icon {
+  display: flex;
+  padding: 0 0 0 0;
+  position: fixed;
+}
+
+.plus-icon {
+  display: flex;
+  padding: 0 0 0 8rem;
+}
