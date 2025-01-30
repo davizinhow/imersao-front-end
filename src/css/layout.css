@@ -7,20 +7,20 @@
 }
 
 .sidebar__nav {
-  background-color: #121212;
+  background-color: #56431B;
   border-radius: 8px;
   padding: 1.6rem 0 0 1.6rem;
 }
 
 
 .library {
-  background-color: #121212;
+  background-color: #56431B;
   border-radius: 0.8rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding: 0.4rem 0.8rem;
-  color: #b3b3b3;
+  color: #FEEAB6;
   font-weight: 600;
   font-size: var(--fonte-pequena);
   margin-top: 1rem;
@@ -36,8 +36,8 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 2rem;
-  background-color: #242424;
-  color: #b3b3b3;
+  background-color: #E0B563;
+  color: #FEEAB6;
   font-weight: 600;
   font-size: var(--fonte-pequena);
   border-radius: 0.8rem;
@@ -48,4 +48,45 @@
 .section-playlist .section-playlist__content {
   display: flex;
   flex-direction: column;
+}
+
+.disclaimer-premium {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(93, 143, 191, 1) 0%, rgba(184, 163, 208, 1) 100%);
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.disclaimer-premium .text {
+  flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.disclaimer-premium button {
+  background-color: #ffffff;
+  color: #FEEAB6;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.4rem 3rem;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
 }
