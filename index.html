@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify Imersão</title>
   <link rel="stylesheet" href="src/css/globals.css">
-  <link rel="stylesheet" href="src/css/variables.css">
-  <link rel="stylesheet" href="src/css/layout.css">
-  <link rel="stylesheet" href="src/css/criticals.css">
+  <link rel="stylesheet" href="src/css/vars.css">
+  <link rel="stylesheet" href="src/css/index/layouts.css">
+  <link rel="stylesheet" href="src/css/index/criticals.css">
 </head>
 
 <body>
@@ -61,20 +61,46 @@
       </div>
     </div>
   </div>
+  <main>
+    <div class="main-container">
+      <nav class="header__nav">
+        <div class="nav">
+          <button class="arrow-left">
+            <span aria-label="Seta para esquerda" class="fa-solid fa-angle-left"></span>
+          </button>
+          <button class="arrow-right">
+            <span aria-label="Seta para direita" class="fa-solid fa-angle-right"></span>
+          </button>
+        </div>
 
+        <div class="header__search">
+
+           <span class="fa fa-search"></span>
+          <input type="text" name="" id="search-input" maxlength="800" placeholder="Qual livro gostaria de explorar?" autocomplete="off" 
+          autocorrect="off" 
+          spellcheck="false">
+        </div>
+        <div class="header__login">
+          <button class="subscribe">Inscreva-se</button>
+          <button class="login">Entrar</button>
+        </div>
+    </div>
+    </nav>
+    </div>
+  </main>
 
   <footer class="disclaimer-premium">
     <div class="text">
-        <p class="disclaimer-premium__title">Testar o Premium de graça</p>
-        <p class="disclaimer-premium__subtitle">
-            Inscreva-se para curtir música ilimitada e podcasts só com alguns
-            anúncios. Não precisa de cartão de crédito.
-        </p>
+      <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+      <p class="disclaimer-premium__subtitle">
+        Inscreva-se para curtir música ilimitada e podcasts só com alguns
+        anúncios. Não precisa de cartão de crédito.
+      </p>
     </div>
     <div class="button">
-        <button type="button">Inscreva-se grátis</button>
+      <button type="button">Inscreva-se grátis</button>
     </div>
-</footer>
+  </footer>
   <script src="https://kit.fontawesome.com/c28402acd1.js" crossorigin="anonymous"></script>
 </body>
 

@@ -5,6 +5,11 @@
 
 :root {
   --bg-color: #FEF9E1;
+  --primary-color: #56431B;
+  --text-primary-color: #FEEAB6;
+  --secondary-color: #E0B563;
+  --text-secondary-color: #4B4433;
+  --accent-color: #733D3D;
   --font-color: #ffffff;
   --fonte-primaria: 'Montserrat', sans-serif;
   --fonte-secundaria: 'Poppins', sans-serif;

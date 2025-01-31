@@ -1,0 +1,225 @@
+.sidebar__nav .logo {
+  display: flex;
+  border-radius: 0.8rem;
+  padding: 1.6rem 0 0 1.6rem;
+  background: var(--primary-color);
+}
+
+.sidebar__nav .logo img {
+  width: 8rem;
+}
+
+.sidebar nav ul {
+  margin-top: 2rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.sidebar nav ul li {
+  padding: 1rem 0;
+}
+
+.sidebar nav ul li a {
+  color: var(--text-primary-color);
+  font-weight: 600;
+  font-size: var(--fonte-pequena);
+}
+
+.library .library__button {
+  display: flex;
+  border-radius: 0.8rem;
+  margin-right: 1rem;
+  color: var(--text-primary-color);
+  background-color: transparent;
+  border: 0px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: var(--fonte-secundaria);
+  text-transform: none;
+  padding: 2rem 1rem;
+}
+
+.library .library__button .fa {
+  font-size: 2rem;
+  margin-right: 1rem;
+  padding-right: 0.8rem;
+}
+
+.library .library__content .fa-plus {
+  margin: 2.4rem 1rem;
+  font-size: var(--fonte-pequena);
+  color: var(--text-primary-color);
+  font-weight: 600;
+}
+
+.section-playlist__content .text {
+  padding-bottom: 1.4rem;
+  color: var(--text-secondary-color);
+  font-size: var(--fonte-pequena);
+  font-weight: 600;
+}
+
+.section-playlist__content .title {
+  font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.section-playlist__content .section-playlist__button {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: var(--text-secondary-color);
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: var(--fonte-secundaria);
+  text-transform: none;
+  padding: 1rem;
+  margin-top: 1.2rem;
+  width: 11.3rem;
+}
+
+.sidebar .cookies {
+  margin: 2.5rem 2rem;
+}
+
+.sidebar .cookies a {
+  color: var(--text-primary-color);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.sidebar .cookies a:hover {
+  text-decoration: underline;
+}
+
+.languages .languages__button {
+  background-color: transparent;
+  border: 1px solid #878787;
+  color: var(--text-primary-color);
+  font-weight: 700;
+  cursor: pointer;
+  width: 17rem;
+  margin: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 2rem;
+}
+
+.disclaimer-premium .text {
+  flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.disclaimer-premium .button {
+  border-radius: 4rem;
+}
+
+.disclaimer-premium button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.4rem 3rem;
+  border: 0px;
+  border-radius: 4rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.header__nav .nav .arrow-left {
+  margin-right: 1.6rem;
+}
+
+.arrow-left, .arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: var(--fonte-media);
+  color: var(--text-secondary-color);
+  background: transparent;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  width: 36.4rem;
+  height: 4.8rem;
+  margin-left: 0.8rem;
+  background-color: var(--secondary-color);
+  border-radius: 50rem;
+  border: 0.1rem solid transparent;
+}
+
+.header__search .fa-search {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  color: var(--text-secondary-color);
+}
+
+.header__search input {
+  background: transparent !important;
+  border: none;
+  padding: 0 10rem 0 1.2rem;
+  color: var(--text-secondary-color);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none; 
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--text-secondary-color);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #E0B563 inset !important;
+}
+
+
+.header__login .subscribe {
+  color: var(--text-primary-color);
+  font-size: var(--fonte-media);
+  font-weight: 700;
+  background-color: transparent;
+  margin-right: 3.2rem;
+}
+
+.header__login .login {
+  width: 10rem;
+  height: 4.8rem;
+  color: var(--text-secondary-color);
+  font-size: var(--fonte-media);
+  font-weight: 700;
+  border-radius: 4rem;
+}
