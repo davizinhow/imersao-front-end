@@ -5,8 +5,17 @@
   background: var(--primary-color);
 }
 
-.sidebar__nav .logo img {
-  width: 8rem;
+.sidebar__nav .logo .bookfy {
+  font-size: 2rem;
+  color: var(--font-color);
+  font-weight: 700;
+  font-family: var(--fonte-primaria);
+  margin-right: 1rem;
+}
+
+.sidebar__nav .logo .fa-solid {
+  font-size: 2rem;
+  color: var(--font-color);
 }
 
 .sidebar nav ul {
