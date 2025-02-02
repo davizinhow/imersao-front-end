@@ -107,7 +107,7 @@
 
 .languages .languages__button {
   background-color: transparent;
-  border: 1px solid #878787;
+  border: 1px solid #E0B563;
   color: var(--text-primary-color);
   font-weight: 700;
   cursor: pointer;
